@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(157, 216, 250);
+}
+h1 {
+    font-family: 'Akronim';
+    padding-left: 30%;
+    font-size: 56px;
+}
+input {
+    margin-left: 10%;
+    padding: 0.5%;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    font-family: cursive;
+    border: 3px solid rgb(189, 24, 24);
+    outline: none;
+    box-shadow: 4px 4px 10px 3px black
+
+}
+
+#btn {
+    padding:1%;
+    margin: 1%;
+    border-radius: 20%;
+    background-color: rgb(194, 11, 11);  
+    outline: none;
+}
+
+.container {
+    display: flex;
+    max-width: 60%;
+    margin-left: 5%;
+}
+ul{
+    width: 80%;
+}
+button{
+    padding:1%;
+    margin-left:5%;
+    border-radius: 20%;
+    background-color: rgb(75, 68, 68);  
+    outline: none;
+    
+}
+button:active{
+    border: 2px solid black;
+    border-style: none;
+}
+li{
+    list-style: none;
+    padding: 1%;
+    width: 100%;
+    font-family: cursive;
+    font-size: 26px;
+    border-bottom: 2px solid black;
+}
+li::before {
+    content: "\f08d"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    padding-right: 3%;
+    
+  
+  }
+
+.star {
+ text-decoration: line-through;
+  background-color: rgb(247, 171, 171);
+
+}
